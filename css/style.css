@@ -84,3 +84,19 @@ image2{
     color: white;
     text-align: center;
 }
+.firstpart{
+    display: flex;
+    justify-content: space-evenly;
+}
+.contactus form{
+border: 1px solid white;
+height: 100vh;
+}
+.form-group{
+    background-color:semi transparent; 
+    border: 1px solid white;
+}
+#exampleFormControlInput1{
+    background-color:semi transparent; 
+    
+}
