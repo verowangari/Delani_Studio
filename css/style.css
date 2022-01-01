@@ -25,3 +25,12 @@ image2{
     text-align: center;
     height: 100vh;
 }
+/* SERVICES SECTION */
+.bg-image{
+    background-image: url(/assets/s_image.jpg);
+    height: 100vh;
+    color: white;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
