@@ -34,3 +34,19 @@ image2{
     background-size: cover;
     text-align: center;
 }
+/* WHAT WE DO */
+.whatwedo{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 100vh;
+}
+.whatwedo h3{
+    text-align: center;
+}
+.whatwedo img{
+    size: auto;
+}
+.entirewhat h3{
+    text-align: center;
+}
