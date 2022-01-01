@@ -1,6 +1,22 @@
+/* Styling for the first section */
 .container1{
     background-image: url(/assets/h_img.jpg);
+    background-position: center;
+    background-size: contain;
     height: 100vh;
     color: white;
     align-items: center;
+
+}
+
+.container1 h1,h4{
+    text-align: center;
+padding-top: 90px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+image2{
+    margin-top: 60px;
 }
