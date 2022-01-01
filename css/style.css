@@ -52,3 +52,26 @@ image2{
     margin-bottom: 50px;
     margin-top: 20px;
 }
+/* Portfolio */
+.firstfour{
+    display: flex;
+    justify-content: space-evenly;
+}
+.firstfour img{
+    height: 150px;
+}
+.secondfour{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.secondfour img{
+    height: 150px;
+}
+.image4{
+    background-image: url(/assets/work8.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-weight: bolder;
+}
