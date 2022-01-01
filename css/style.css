@@ -75,3 +75,12 @@ image2{
     color: white;
     font-weight: bolder;
 }
+/* contact us */
+.contactus{
+    background-image: url(/assets/c_image.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
