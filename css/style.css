@@ -1,17 +1,26 @@
 /* Styling for the first section */
 .container1{
     background-image: url(/assets/h_img.jpg);
+    -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     height: 100vh;
     color: white;
     align-items: center;
+    padding-top: 200px;
 
 }
 
-.container1 h1,h4{
+.container1 h1{
     text-align: center;
 padding-top: 90px;
+}
+.container1 p{
+    padding-bottom: 200px;
+    text-align: center;
 }
 .image{
     display: flex;
