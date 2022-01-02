@@ -34,6 +34,7 @@ image2{
     text-align: center;
     height: 100%;
     margin-bottom: 50px;
+    overflow: hidden;
 }
 .aboutus h2{
     margin-top: 40px;
