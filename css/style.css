@@ -32,7 +32,10 @@ image2{
 /* ABOUT US SECTION */
 .aboutus{
     text-align: center;
-    height: 100vh;
+    height: 100%;
+}
+.aboutus h2{
+    margin-top: 40px;
 }
 /* SERVICES SECTION */
 .bg-image{
