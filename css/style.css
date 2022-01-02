@@ -113,6 +113,7 @@ image2{
 }
 .image4{
     background-image: url(../assets/work8.jpg);
+    background-repeat: no-repeat;
     background-size: 400px;
     background-position: center;
     color: white;
