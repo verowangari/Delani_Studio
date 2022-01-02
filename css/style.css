@@ -1,6 +1,9 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
 /* Styling for the first section */
 .container1{
-    background-image: url(/assets/h_img.jpg);
+    background-image: url(../assets/h_img.jpg);
     -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
@@ -41,7 +44,7 @@ image2{
 }
 /* SERVICES SECTION */
 .bg-image{
-    background-image: url(/assets/s_image.jpg);
+    background-image: url(../assets/s_image.jpg);
     -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
@@ -77,6 +80,9 @@ image2{
     margin-top: 10px;
     /* border: 2px solid black; */
 }
+.display1,.display2,.display3{
+    display: none;
+ }
 
 /* Portfolio */
 .portfolio{
@@ -106,7 +112,7 @@ image2{
     padding-right: 17px;
 }
 .image4{
-    background-image: url(/assets/work8.jpg);
+    background-image: url(../assets/work8.jpg);
     background-size: 400px;
     background-position: center;
     color: white;
@@ -116,7 +122,7 @@ image2{
 }
 /* contact us */
 .contactus{
-    background-image: url(/assets/c_image.jpg);
+    background-image: url(../assets/c_image.jpg);
     height: 100%;
     background-position: center;
     background-size: contain;
@@ -141,6 +147,7 @@ image2{
 }
 .contactus form{
 height: 100%;
+
 }
 .contactus h3{
     padding-top: 40px;
