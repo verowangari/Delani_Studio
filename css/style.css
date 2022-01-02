@@ -69,6 +69,7 @@ image2{
 .card p{
  font-size: small;   
 }
+
 .entirewhat h3{
     text-align: center;
     margin-bottom: 50px;
@@ -108,30 +109,38 @@ image2{
     color: white;
     font-weight: bolder;
     object-fit: scale-down;
-    width: 17vw;
+    width: 18vw;
 }
 /* contact us */
 .contactus{
     background-image: url(/assets/c_image.jpg);
-    height: 100vh;
+    height: 100%;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
     color: white;
     text-align: center;
+}
+.form-group input{
+    margin-bottom: 20px;
+    background-color: inherit;
+    color: white;
+    padding: 0 60px 0 100px;
+}
+.form-group textarea{
+    background-color: inherit;
+    color: white;
+    padding-bottom: 60px;
+    margin-right: -80px;
 }
 .firstpart{
     display: flex;
     justify-content: space-evenly;
 }
 .contactus form{
-border: 1px solid white;
-height: 100vh;
+height: 100%;
 }
-.form-group{
-    background-color:semi transparent; 
-    border: 1px solid white;
-}
-#exampleFormControlInput1{
-    background-color:semi transparent; 
+.contactus h3{
+    padding-top: 40px;
+    margin-bottom: 30px;
     
 }
