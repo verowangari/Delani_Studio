@@ -4,7 +4,7 @@ A landing page
 #### By 
 Veronica Wangari
 ## Description
-A landing page for a fictional studio.
+A landing page for a fictional studio that offers designs, development and product management services.
 ## Link to Github Pages
 
 
