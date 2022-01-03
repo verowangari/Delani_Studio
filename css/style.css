@@ -172,7 +172,7 @@ image2{
 /* contact us */
 .contactus{
     background-image: url(../assets/c_image.jpg);
-    height: 100vh;
+    height: 100%;
     background-position: center;
     background-size: contain;
     color: white;
