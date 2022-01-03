@@ -37,10 +37,13 @@ image2{
     text-align: center;
     height: 100%;
     margin-bottom: 50px;
-    overflow: hidden;
+    /* border: 2px solid blueviolet; */
 }
 .aboutus h2{
-    margin-top: 40px;
+    margin-top: 80px;
+}
+.aboutus p{
+    line-height: 1.5rem;
 }
 /* SERVICES SECTION */
 .bg-image{
@@ -48,12 +51,15 @@ image2{
     -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
-    height: 100vh;
+    height: 100%;
     color: white;
     background-position: center;
-    background-size: auto;
+    background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
+    /* border: 2px solid chocolate; */
+    
+    overflow: hidden;
 }
 #services h5{
     padding-top: 280px;
@@ -64,6 +70,7 @@ image2{
     justify-content: space-evenly;
     text-align: center;
     height: 100%;
+    /* border: 2px solid green; */
 }
 .whatwedo img{
     width: 100%;
