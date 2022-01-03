@@ -6,7 +6,7 @@ Veronica Wangari
 ## Description
 A landing page for a fictional studio that offers designs, development and product management services.
 ## Link to Github Pages
-
+https://verowangari.github.io/Delani_Studio/
 
 ## Setup/Installation Requirement
 1) Install Visual Studio <br> 2) Create a github account. <br> 3) Install git <br> 4) Create a repository <br> 5) Code <br> 6) Push to github <br>7) Put the site into use
