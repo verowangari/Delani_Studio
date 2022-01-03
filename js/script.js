@@ -14,8 +14,8 @@ jQuery(document).ready(function() {
       });
       
   });
-  $(".Hover").hover(function(){
-    $(this).animate({opacity:'1'});
+  $(".text").hover(function(){
+    $(this).animate({opacity:'0'});
   },
   function(){
     $(this).animate({opacity:'0'});
