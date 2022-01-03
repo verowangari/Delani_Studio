@@ -12,8 +12,11 @@ jQuery(document).ready(function() {
         $(".imagehide3").slideToggle(1000);
         $(".display3").slideToggle(2000);
       });
-      $(".road").hide();
-$(".croseover").hover(function(){
-    $(this).find(".descr").toggle(400);
-});
+      
   });
+  $(".Hover").hover(function(){
+    $(this).animate({opacity:'1'});
+  },
+  function(){
+    $(this).animate({opacity:'0'});
+  })
