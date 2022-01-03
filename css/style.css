@@ -25,7 +25,7 @@ padding-top: 90px;
     padding-bottom: 200px;
     text-align: center;
 }
-.image{
+.imaged{
     display: flex;
     justify-content: center;
 }
@@ -37,7 +37,7 @@ image2{
     text-align: center;
     height: 100%;
     margin-bottom: 50px;
-    /* border: 2px solid blueviolet; */
+    
 }
 .aboutus h2{
     margin-top: 80px;
@@ -57,7 +57,7 @@ image2{
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    /* border: 2px solid chocolate; */
+  
     
     overflow: hidden;
 }
@@ -70,7 +70,7 @@ image2{
     justify-content: space-evenly;
     text-align: center;
     height: 100%;
-    /* border: 2px solid green; */
+   
 }
 .whatwedo img{
     width: 100%;
@@ -85,7 +85,7 @@ image2{
     text-align: center;
     margin-bottom: 30px;
     margin-top: 10px;
-    /* border: 2px solid black; */
+    
 }
 .display1,.display2,.display3{
     display: none;
@@ -113,12 +113,12 @@ image2{
     margin-top: 30px;
 }
 .secondfour img{
-    /* height: 164px; */
+    height: 164px;
     object-fit: scale-down;
     height: 15vw;
     padding-right: 17px;
 }
-.image4{
+.container4{
     background-image: url(../assets/work8.jpg);
     background-repeat: no-repeat;
     background-size: 400px;
@@ -128,6 +128,47 @@ image2{
     object-fit: scale-down;
     width: 18vw;
 }
+/* container css */
+.portfolios {
+    position: relative;
+    /* width: 50%; */
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    /* height: auto; */
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .portfolios:hover .image {
+    opacity: 0.3;
+  }
+  
+  .portfolios:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: yellow;
+    color: black;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  
 /* contact us */
 .contactus{
     background-image: url(../assets/c_image.jpg);
