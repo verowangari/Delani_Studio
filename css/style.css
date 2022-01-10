@@ -163,10 +163,12 @@ image2{
   }
   
   .text {
-    background-color: yellow;
-    color: black;
+    background-color: black;
+    color:white;
     font-size: 16px;
     padding: 16px 32px;
+    font-weight: bolder;
+    font-size: 35px;
   }
   
 /* contact us */
