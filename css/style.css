@@ -65,12 +65,19 @@ image2{
     padding-top: 100px;
 }
 /* WHAT WE DO */
+.entirewhat{
+    text-align: center;
+}
 .whatwedo{
     display: flex;
-    justify-content: space-evenly;
     text-align: center;
     height: 100%;
-   
+   /*  */
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 .whatwedo img{
     width: 100%;
@@ -90,11 +97,15 @@ image2{
 .display1,.display2,.display3{
     display: none;
  }
+ 
 
 /* Portfolio */
 .portfolio{
     height: 100%;
     padding-bottom: 38px;
+}
+.portfolio h3{
+    text-align: center;
 }
 .firstfour{
     display: flex;
