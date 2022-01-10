@@ -174,22 +174,24 @@ image2{
     background-image: url(../assets/c_image.jpg);
     height: 100%;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     color: white;
     text-align: center;
 }
-.form-group input{
-    margin-bottom: 20px;
-    background-color: inherit;
-    color: white;
-    padding: 0 60px 0 100px;
+#textarea{
+    width: 800px;
+    background-color: transparent;
+    height: 250px;
+    margin-top:24px;
+    border: 1px solid white;
 }
-.form-group textarea{
-    background-color: inherit;
-    color: white;
-    padding-bottom: 60px;
-    margin-right: -80px;
+.form-input{
+    width: 400px;
+    background-color: transparent;
+    margin-right: 16px;
+    border: 1px solid white;
 }
+
 .firstpart{
     display: flex;
     justify-content: space-evenly;
