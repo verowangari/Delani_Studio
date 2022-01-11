@@ -22,7 +22,7 @@
         TO DELANI STUDIO
       </h1>
       <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
-      <div class="imaged" id="image 2">
+      <div class="imaged" id="image2">
         <img src="assets/mouse_click (1).png" alt="" />
       </div>
     </div>
@@ -69,61 +69,70 @@
     <!-- what we do -->
     <div class="container-fluid entirewhat">
       <h3 style="text-align: center">WHAT WE DO</h3>
-      <div class="whatwedo">
-        <div class="card1" style="border: none">
-          <img
-            class="imagehide1"
-            src="assets/design_icon.png"
-            alt="Card image cap"
-          />
-          <div class="card-body">
-            <p class="card-text" style="margin-top: -80px">DESIGN</p>
-            <p class="display1">
-              Our design practice offers a full range of services including
-              brand strategy, <br />
-              interaction and visual design and user experience testing.
-              Throughout your project,<br />
-              our designers create and implement visual design and workflows,<br />
-              solicit user feedback and work with you to make sure what gets
-              built is what is needed.
-            </p>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card1" style="border: none">
+            <img
+              class="imagehide1"
+              src="assets/design_icon.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <!-- <p class="card-text" style="margin-top: -80px">DESIGN</p> -->
+              <header>DESIGN</header>
+              <p class="display1">
+                Our design practice offers a full range of services including
+                brand strategy, <br />
+                interaction and visual design and user experience testing.
+                Throughout your project,<br />
+                our designers create and implement visual design and workflows,<br />
+                solicit user feedback and work with you to make sure what gets
+                built is what is needed.
+              </p>
+            </div>
           </div>
         </div>
-        <div class="card2" style="border: none">
-          <img
-            class="imagehide2"
-            src="assets/dev_icon.png"
-            alt="Card image cap"
-          />
-          <div class="card-body">
-            <p class="card-text" style="margin-top: -80px">DEVELOPMENT</p>
-            <p class="display2">
-              All engineers are fluent in the latest enterprise, mobile and web
-              development technologies.<br />
-              They collaborate with your team to write, and improve code on a
-              daily basis, <br />
-              proven practices such as test-driven development and pair
-              programming.
-            </p>
+        <div class="col-sm-4">
+          <div class=" card2" style="border: none">
+            <img
+              class="imagehide2"
+              src="assets/dev_icon.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <!-- <p class="card-text" style="margin-top: -80px">DEVELOPMENT</p> -->
+              <header>DEVELOPMENT</header>
+              <p class="display2">
+                All engineers are fluent in the latest enterprise, mobile and web
+                development technologies.<br />
+                They collaborate with your team to write, and improve code on a
+                daily basis, <br />
+                proven practices such as test-driven development and pair
+                programming.
+              </p>
+            </div>
           </div>
         </div>
-        <div class="card3" style="border: none">
-          <img
-            class="imagehide3"
-            src="assets/product_icon.png"
-            alt="Card image cap"
-          />
-          <div class="card-body">
-            <p class="card-text" style="margin-top: -80px">
-              PRODUCT MANAGEMENT
-            </p>
-            <p class="display3">
-              Planning and development is iterative. Because we are constantly
-              coding <br />and testing, the products we build are always ready
-              to go live.<br />
-              This iterative process allows for changes as business requirements
-              evolve.
-            </p>
+        <div class="col-sm-4">
+          <div class=" card3" style="border: none">
+            <img
+              class="imagehide3"
+              src="assets/product_icon.png"
+              alt="design"
+            />
+            <div class="card-body">
+              <!-- <p class="card-text" style="margin-top: -80px"> -->
+                <!-- PRODUCT MANAGEMENT -->
+              <!-- </p> -->
+              <header>PRODUCT MANAGEMENT</header>
+              <p class="display3">
+                Planning and development is iterative. Because we are constantly
+                coding <br />and testing, the products we build are always ready
+                to go live.<br />
+                This iterative process allows for changes as business requirements
+                evolve.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -132,7 +141,7 @@
       <h3>PORTFOLIO</h3>
       <div class="firstfour">
         <div class="portfolios">
-          <img src="assets/work4.jpg" class="image" alt="" />
+          <img src="assets/work4.jpg" class="imag" alt="" />
           <div class="middle">
             <div class="text">Black</div>
           </div>
@@ -175,13 +184,10 @@
             <div class="text">Submit Age</div>
           </div>
         </div>
-        <div class="container4">
-          <h3>
-            BAILEY <br />
-            WONGER
-          </h3>
+        <div class="portfolios">
+          <img src="assets/work8.jpg" alt="" />
           <div class="middle">
-            <div class="text">Girraffe Restaurant</div>
+            <div class="text">Bailey Wanger</div>
           </div>
         </div>
       </div>
@@ -192,8 +198,8 @@
       <div class="container-fluid contact">
         <h3>CONTACT US</h3>
         <form id="contactform">
-          <input type="text" class="form-input" placeholder="Name..." />
-          <input type="email" class="form-input" placeholder="Email..." />
+          <input type="text" id="yourname" class="form-input" placeholder="Name..." />
+          <input type="email" id="youremail" class="form-input" placeholder="Email..." />
           <br />
           <input type="text" id="textarea" placeholder="Your message here..." />
         </form>

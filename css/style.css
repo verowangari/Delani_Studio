@@ -73,11 +73,11 @@ image2{
     text-align: center;
     height: 100%;
    /*  */
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-left: 200px;
     padding-right: 200px;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 .whatwedo img{
     width: 100%;
@@ -90,7 +90,7 @@ image2{
 
 .entirewhat h3{
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     margin-top: 10px;
     
 }
