@@ -65,14 +65,21 @@ image2{
     padding-top: 100px;
 }
 /* WHAT WE DO */
-.whatwedo{
+.entirewhat{
+    text-align: center;
+}
+/* .whatwedo{ */
     display: flex;
-    justify-content: space-evenly;
     text-align: center;
     height: 100%;
-   
+   /*  */
+    justify-content: space-evenly;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
-.whatwedo img{
+/* .whatwedo img{ */
     width: 100%;
     height: 15vw;
     object-fit: scale-down;
@@ -83,18 +90,22 @@ image2{
 
 .entirewhat h3{
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     margin-top: 10px;
     
 }
 .display1,.display2,.display3{
     display: none;
  }
+ 
 
 /* Portfolio */
 .portfolio{
     height: 100%;
     padding-bottom: 38px;
+}
+.portfolio h3{
+    text-align: center;
 }
 .firstfour{
     display: flex;
@@ -163,10 +174,12 @@ image2{
   }
   
   .text {
-    background-color: yellow;
-    color: black;
+    background-color: black;
+    color:white;
     font-size: 16px;
     padding: 16px 32px;
+    font-weight: bolder;
+    font-size: 35px;
   }
   
 /* contact us */
@@ -174,22 +187,24 @@ image2{
     background-image: url(../assets/c_image.jpg);
     height: 100%;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     color: white;
     text-align: center;
 }
-.form-group input{
-    margin-bottom: 20px;
-    background-color: inherit;
-    color: white;
-    padding: 0 60px 0 100px;
+#textarea{
+    width: 800px;
+    background-color: transparent;
+    height: 250px;
+    margin-top:24px;
+    border: 1px solid white;
 }
-.form-group textarea{
-    background-color: inherit;
-    color: white;
-    padding-bottom: 60px;
-    margin-right: -80px;
+.form-input{
+    width: 400px;
+    background-color: transparent;
+    margin-right: 16px;
+    border: 1px solid white;
 }
+
 .firstpart{
     display: flex;
     justify-content: space-evenly;
